@@ -2,7 +2,7 @@
 let books = [];
 
 // Configuration
-const visibleCards = 3; // Number of cards visible at a time
+const visibleCards = 3; // X or Number of cards visible at a time
 let currentIndex = 0; // Starting index of the carousel
 let autoRotationTimer;
 
