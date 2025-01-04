@@ -3,21 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Simple HTML Page</title>
+    <title>Responsive Carousel</title>
     <link rel="stylesheet" href="my-styles.css">
-    <script src="my-script.js"></script>
+    <script src="my-script.js" defer></script>
 </head>
 <body>
     <header>
-        <h1>Welcome to My Simple HTML Page</h1>
+        <h1>Book Carousel</h1>
     </header>
 
     <main>
-        <p class="atext">This is the body of the page. You can add your content here.</p>
+        <!-- Carousel Wrapper -->
+        <div id="carousel-wrapper">
+            <!-- L Arrow -->
+            <button id="left-arrow" class="arrow">&lt;</button>
+
+            <!-- Carousel -->
+            <div id="carousel">
+
+            <!-- R Arrow -->
+            <button id="right-arrow" class="arrow">&gt;</button>
+        </div>
     </main>
 
     <footer>
-        <p>&copy; 2024 My Website</p>
+        <p>&copy; 2024 Book Carousel</p>
     </footer>
 </body>
 </html>
